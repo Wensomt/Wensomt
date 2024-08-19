@@ -16,5 +16,57 @@
       "addr": 0x403f99, 
       "code": "83FB0190",
     },
+	"No_Bomb": {
+      "addr": 0x41ca2f, 
+      "code": "6A08",
+    },
+	"Charge_On_X": {
+      "addr": 0x41f9f6, 
+      "code": "6A02",
+    },
+	"Check_X_1": {
+      "addr": 0x41f848, 
+      "code": "6A02",
+    },
+	"Check_X_2": {
+      "addr": 0x41f846, 
+      "code": "740E",
+    },
+	"Do_Charge_Z": {
+      "addr": 0x41f925, 
+      "code": "7504",
+    },
+	"Repair_Bot_1": {
+      "addr": 0x41f838, 
+      "code": "6A 01",
+    },
+	"Repair_Bot_2": {
+      "addr": 0x41f83A, 
+      "code": "8B CB",
+    },
+	"Repair_Bot_3": {
+      "addr": 0x41f83C, 
+      "code": "E8 6F64FFFF",
+    },
+	"Repair_Bot_4": {
+      "addr": 0x41f841, 
+      "code": "66 85 C0",
+    },
+	"Repair_Bot_5": {
+      "addr": 0x41f844, 
+      "code": "90",
+    },
+	"Repair_Bot_6": {
+      "addr": 0x41f845, 
+      "code": "90",
+    },
+	"Repair_Bot_7": {
+      "addr": 0x41f845, 
+      "code": "90",
+    },
+	"Repair_Bot_21": {
+      "addr": 0x41f836, 
+      "code": "75 10",
+    },
   },
 }
