@@ -68,5 +68,29 @@
       "addr": 0x41f836, 
       "code": "75 10",
     },
+	"Charge_lvl_2_1": {
+      "addr": 0x403c34, 
+      "code": "6a 18",
+    },
+	"Charge_lvl_2_2": {
+      "addr": 0x403c4d, 
+      "code": "6a 18",
+    },
+	"Charge_lvl_2_3": {
+      "addr": 0x403c69, 
+      "code": "6a 18",
+    },
+	"Charge_lvl_3_1": {
+      "addr": 0x403c94, 
+      "code": "6a 30",
+    },
+	"Charge_lvl_3_2": {
+      "addr": 0x403cad, 
+      "code": "6a 30",
+    },
+	"Charge_lvl_3_3": {
+      "addr": 0x403cc9, 
+      "code": "6a 30",
+    },
   },
 }
