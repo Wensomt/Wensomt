@@ -70,15 +70,15 @@
     },
 	"Charge_lvl_2_1": {
       "addr": 0x403c34, 
-      "code": "6a 18",
+      "code": "6a 1E",
     },
 	"Charge_lvl_2_2": {
       "addr": 0x403c4d, 
-      "code": "6a 18",
+      "code": "6a 1E",
     },
 	"Charge_lvl_2_3": {
       "addr": 0x403c69, 
-      "code": "6a 18",
+      "code": "6a 1E",
     },
 	"Charge_lvl_3_1": {
       "addr": 0x403c94, 
