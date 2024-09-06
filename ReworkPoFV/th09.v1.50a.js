@@ -92,5 +92,85 @@
       "addr": 0x403cc9, 
       "code": "6a 30",
     },
+	"750000_1": {
+      "addr": 0x41d1e4, 
+      "code": "3D B0710B00",
+    },
+	"750000_2": {
+      "addr": 0x41d1eb, 
+      "code": "81 FB B0710B00",
+    },
+	"500000_1": {
+      "addr": 0x41d225, 
+      "code": "3D 20A10700",
+    },
+	"500000_2": {
+      "addr": 0x41d22c, 
+      "code": "81 FB 20A10700",
+    },
+	"250000_1": {
+      "addr": 0x41d25e, 
+      "code": "3D 90D00300",
+    },
+	"250000_2": {
+      "addr": 0x41d265, 
+      "code": "81 FB 90D00300",
+    },
+	"spell_at_500000": {
+      "addr": 0x41d234, 
+      "code": "EB BD",
+    },
+	"BIG_JUMP": {
+      "addr": 0x41d26D, 
+      "code": "EB 84",
+    },
+	"BIG_JUMP_2": {
+      "addr": 0x41d223, 
+      "code": "EB 11",
+    },
+	"replace_1": {
+      "addr": 0x41d236, 
+      "code": "8B 06",
+    },
+	"replace_2": {
+      "addr": 0x41d238, 
+      "code": "8B 88 38030300",
+    },
+	"replace_3": {
+      "addr": 0x41d23E, 
+      "code": "8B 50 10",
+    },
+	"replace_4": {
+      "addr": 0x41d241, 
+      "code": "81 C1 AC 00 00 00",
+    },
+	"replace_5": {
+      "addr": 0x41d247, 
+      "code": "51",
+    },
+	"replace_6": {
+      "addr": 0x41d248, 
+      "code": "8B 4A 14",
+    },
+	"replace_7": {
+      "addr": 0x41d24B, 
+      "code": "6A 00",
+    },
+	"replace_8": {
+      "addr": 0x41d24D, 
+      "code": "6A 02",
+    },
+	"replace_9": {
+      "addr": 0x41d24F, 
+      "code": "6A 02",
+    },
+	"replace_10": {
+      "addr": 0x41d251, 
+      "code": "E8 FA 6B FE FF",
+    },
+	"replace_11": {
+      "addr": 0x41d251, 
+      "code": "EB 35",
+    },
   },
 }
