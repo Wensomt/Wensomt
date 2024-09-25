@@ -172,5 +172,17 @@
       "addr": 0x41d251, 
       "code": "EB 35",
     },
+	"consistent_life_1": {
+      "addr": 0x41e458, 
+      "code": "B9 02000000",
+    },
+	"consistent_life_2": {
+      "addr": 0x41e45D, 
+      "code": "90",
+    },
+	"consistent_life_3": {
+      "addr": 0x41E464 , 
+      "code": "83 C1 00",
+    },
   },
 }
