@@ -184,5 +184,61 @@
       "addr": 0x41E464 , 
       "code": "83 C1 00",
     },
+	"less_pellets_enemy_max": {
+      "addr": 0x41050f , 
+      "code": "C7 45 F4 1E000000",
+    },
+	"less_pellets_enemy": {
+      "addr": 0x410518 , 
+      "code": "8D 50 14",
+    },
+	"less_pellets_enemy_2": {
+      "addr": 0x41051B , 
+      "code": "90",
+    },
+	"less_pellets_pellets": {
+      "addr": 0x41e2d9 , 
+      "code": "83 c1 01",
+    },
+	"less_spirits_pellets": {
+      "addr": 0x41e2f0, 
+      "code": "6a 01",
+    },
+	"less_spirits_min": {
+      "addr": 0x41d39a, 
+      "code": "ba 5A 00 00 00",
+    },
+	"less_spirits_min_2": {
+      "addr": 0x41d4f0, 
+      "code": "8D 4C 09 A6",
+    },
+	"yuuka_scope_bug_fix": {
+      "addr": 0x448025, 
+      "code": "74 04",
+    },
+	"yuuka_scope_bug_fix_nop1": {
+      "addr": 0x448027, 
+      "code": "90",
+    },
+	"yuuka_scope_bug_fix_nop2": {
+      "addr": 0x448028, 
+      "code": "90",
+    },
+	"yuuka_scope_bug_fix_nop3": {
+      "addr": 0x448029, 
+      "code": "90",
+    },
+	"yuuka_scope_bug_fix_nop4": {
+      "addr": 0x44802A, 
+      "code": "90",
+    },
+	"more_spell_points": {
+      "addr": 0x40F870, 
+      "code": "D1 FA",
+    },
+	"more_spell_points_2": {
+      "addr": 0x40F872, 
+      "code": "90",
+    },
   },
 }
