@@ -186,11 +186,15 @@
     },
 	"less_pellets_enemy_max": {
       "addr": 0x41050f , 
-      "code": "C7 45 F4 1E000000",
+      "code": "C7 45 F4 F0000000",
+    },
+	"less_pellets_lily_b": {
+      "addr": 0x410313 , 
+      "code": "68 64 00 00 00",
     },
 	"less_pellets_enemy": {
       "addr": 0x410518 , 
-      "code": "8D 50 14",
+      "code": "8D 50 05",
     },
 	"less_pellets_enemy_2": {
       "addr": 0x41051B , 
@@ -198,19 +202,11 @@
     },
 	"less_pellets_pellets": {
       "addr": 0x41e2d9 , 
-      "code": "83 c1 01",
+      "code": "83 c1 00",
     },
 	"less_spirits_pellets": {
       "addr": 0x41e2f0, 
       "code": "6a 01",
-    },
-	"less_spirits_min": {
-      "addr": 0x41d39a, 
-      "code": "ba 5A 00 00 00",
-    },
-	"less_spirits_min_2": {
-      "addr": 0x41d4f0, 
-      "code": "8D 4C 09 A6",
     },
 	"yuuka_scope_bug_fix": {
       "addr": 0x448025, 
@@ -240,5 +236,42 @@
       "addr": 0x40F872, 
       "code": "90",
     },
+	"mystia_EX_Buff_1": {
+      "addr": 0x445d8b, 
+      "code": "b9 AF 00 00 00",
+    },
+	"mystia_EX_Buff_2": {
+      "addr": 0x445dbe, 
+      "code": "8D 8C 40 51 FF FF FF",
+    },
+	"mystia_EX_Buff_3": {
+      "addr": 0x445de7, 
+      "code": "b8 AF 00 00 00",
+    },
+	"komachi_EX_nerf_1": {
+      "addr": 0x44af89, 
+      "code": "b8 32 00 00 00",
+    },
+	"komachi_EX_nerf_2": {
+      "addr": 0x44afbe, 
+      "code": "8D 0C 85 38 FF FF FF",
+    },
+	"komachi_EX_nerf_3": {
+      "addr": 0x44afcf, 
+      "code": "ba 32 00 00 00",
+    },
+	"lunasa_EX_nerf_1": {
+      "addr": 0x44c68b, 
+      "code": "b9 64 00 00 00",
+    },
+	"lunasa_EX_nerf_2": {
+      "addr": 0x44c6be, 
+      "code": "8D 4C 40 9C",
+    },
+	"lunasa_EX_nerf_3": {
+      "addr": 0x44c6d2, 
+      "code": "b8 64 00 00 00",
+    },
   },
 }
+64
