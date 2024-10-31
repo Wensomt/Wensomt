@@ -272,6 +272,33 @@
       "addr": 0x44c6d2, 
       "code": "b8 64 00 00 00",
     },
+	"Scope_Merlin_Bigger": {
+      "addr": 0x44bc3a, 
+      "code": "D8 1D B0 E3 48 00",
+    },
+	"Scope_Merlin_Faster": {
+      "addr": 0x44bc4a, 
+      "code": "D8 05 A0 15 49 00",
+    },
+	"Scope_Tewi_Bigger": {
+      "addr": 0x4475ca, 
+      "code": "D8 1D C4 E3 48 00",
+    },
+	"Scope_Tewi_Faster": {
+      "addr": 0x4475da, 
+      "code": "D8 05 70 E4 48 00",
+    },
+	"Scope_Aya_Faster": {
+      "addr": 0x449020, 
+      "code": "D8 05 70 E4 48 00",
+    },
+	"Scope_Lunasa_Bigger": {
+      "addr": 0x44c29a, 
+      "code": "D8 1D 70 E4 48 00",
+    },
+	"Scope_Lunasa_Faster": {
+      "addr": 0x44c2aa, 
+      "code": "D8 05 A0 E2 48 00",
+    },
   },
 }
-64
