@@ -290,7 +290,7 @@
     },
 	"Scope_Aya_Faster": {
       "addr": 0x449020, 
-      "code": "D8 05 70 E4 48 00",
+      "code": "D8 05 B0 E4 48 00",
     },
 	"Scope_Lunasa_Bigger": {
       "addr": 0x44c29a, 
@@ -299,6 +299,10 @@
 	"Scope_Lunasa_Faster": {
       "addr": 0x44c2aa, 
       "code": "D8 05 A0 E2 48 00",
+    },
+	"Scope_Youmu_Faster": {
+      "addr": 0x44326a, 
+      "code": "D8 05 30 E8 48 00",
     },
   },
 }
