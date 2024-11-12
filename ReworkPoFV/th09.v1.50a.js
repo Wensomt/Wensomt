@@ -80,6 +80,7 @@
       "addr": 0x403c69, 
       "code": "6a 1E",
     },
+/*
 	"Charge_lvl_3_1": {
       "addr": 0x403c94, 
       "code": "6a 30",
@@ -92,6 +93,8 @@
       "addr": 0x403cc9, 
       "code": "6a 30",
     },
+*/
+/*
 	"750000_1": {
       "addr": 0x41d1e4, 
       "code": "3D B0710B00",
@@ -120,6 +123,7 @@
       "addr": 0x41d234, 
       "code": "EB BD",
     },
+	
 	"BIG_JUMP": {
       "addr": 0x41d26D, 
       "code": "EB 84",
@@ -172,6 +176,8 @@
       "addr": 0x41d251, 
       "code": "EB 35",
     },
+	*/
+/*	
 	"consistent_life_1": {
       "addr": 0x41e458, 
       "code": "B9 02000000",
@@ -184,6 +190,7 @@
       "addr": 0x41E464 , 
       "code": "83 C1 00",
     },
+*/
 	"less_pellets_enemy_max": {
       "addr": 0x41050f , 
       "code": "C7 45 F4 F0000000",
@@ -228,6 +235,7 @@
       "addr": 0x44802A, 
       "code": "90",
     },
+	/*
 	"more_spell_points": {
       "addr": 0x40F870, 
       "code": "D1 FA",
@@ -235,7 +243,7 @@
 	"more_spell_points_2": {
       "addr": 0x40F872, 
       "code": "90",
-    },
+    },*/
 	"mystia_EX_Buff_1": {
       "addr": 0x445d8b, 
       "code": "b9 AF 00 00 00",
