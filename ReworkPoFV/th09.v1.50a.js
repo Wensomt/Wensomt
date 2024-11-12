@@ -177,7 +177,6 @@
       "code": "EB 35",
     },
 	*/
-/*	
 	"consistent_life_1": {
       "addr": 0x41e458, 
       "code": "B9 02000000",
@@ -190,7 +189,6 @@
       "addr": 0x41E464 , 
       "code": "83 C1 00",
     },
-*/
 	"less_pellets_enemy_max": {
       "addr": 0x41050f , 
       "code": "C7 45 F4 F0000000",
