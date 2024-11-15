@@ -16,10 +16,6 @@
       "addr": 0x403f99, 
       "code": "83FB0190",
     },
-	"No_Bomb": {
-      "addr": 0x41ca2f, 
-      "code": "6A08",
-    },
 	"Charge_On_X": {
       "addr": 0x41f9f6, 
       "code": "6A02",
@@ -94,31 +90,32 @@
       "code": "6a 30",
     },
 */
-/*
-	"750000_1": {
+	"600000_1": {
       "addr": 0x41d1e4, 
-      "code": "3D B0710B00",
+      "code": "3D C0 27 09 00",
     },
-	"750000_2": {
+	"600000_2": {
       "addr": 0x41d1eb, 
-      "code": "81 FB B0710B00",
+      "code": "81 FB C0 27 09 00",
     },
-	"500000_1": {
+	"400000_1": {
       "addr": 0x41d225, 
-      "code": "3D 20A10700",
+      "code": "3D 80 1A 06 00",
     },
-	"500000_2": {
+	"400000_2": {
       "addr": 0x41d22c, 
-      "code": "81 FB 20A10700",
+      "code": "81 FB 80 1A 06 00",
     },
-	"250000_1": {
+	"200000_1": {
       "addr": 0x41d25e, 
-      "code": "3D 90D00300",
+      "code": "3D 40 0D 03 00",
     },
-	"250000_2": {
+	"200000_2": {
       "addr": 0x41d265, 
-      "code": "81 FB 90D00300",
+      "code": "81 FB 40 0D 03 00",
     },
+
+	/*
 	"spell_at_500000": {
       "addr": 0x41d234, 
       "code": "EB BD",
@@ -189,13 +186,14 @@
       "addr": 0x41E464 , 
       "code": "83 C1 00",
     },
-	"less_pellets_enemy_max": {
-      "addr": 0x41050f , 
-      "code": "C7 45 F4 F0000000",
-    },
 	"less_pellets_lily_b": {
       "addr": 0x410313 , 
-      "code": "68 64 00 00 00",
+      "code": "68 32 00 00 00",
+    },
+/*
+	"less_pellets_enemy_max": {
+      "addr": 0x41050f , 
+      "code": "C7 45 F4 0A 00 00 00",
     },
 	"less_pellets_enemy": {
       "addr": 0x410518 , 
@@ -205,6 +203,68 @@
       "addr": 0x41051B , 
       "code": "90",
     },
+
+*/
+	"less_pellets_enemy_main": {
+	  "addr": 0x41050A , 
+      "code": "C7 45 F4 05 00 00 00",
+	},
+	"less_pellets_enemy_1": {
+	  "addr": 0x410511 , 
+      "code": "90",
+	},
+	"less_pellets_enemy_2": {
+	  "addr": 0x410512 , 
+      "code": "90",
+	},
+	"less_pellets_enemy_3": {
+	  "addr": 0x410513 , 
+      "code": "90",
+	},
+	"less_pellets_enemy_4": {
+	  "addr": 0x410514 , 
+      "code": "90",
+	},
+	"less_pellets_enemy_5": {
+	  "addr": 0x410515 , 
+      "code": "90",
+	},
+	"less_pellets_enemy_6": {
+	  "addr": 0x410516 , 
+      "code": "90",
+	},
+	"less_pellets_enemy_7": {
+	  "addr": 0x410517 , 
+      "code": "90",
+	},
+	"less_pellets_enemy_8": {
+	  "addr": 0x410518 , 
+      "code": "90",
+	},
+	"less_pellets_enemy_9": {
+	  "addr": 0x410519 , 
+      "code": "90",
+	},
+	"less_pellets_enemy_10": {
+	  "addr": 0x41051A , 
+      "code": "90",
+	},
+	"less_pellets_enemy_11": {
+	  "addr": 0x41051B , 
+      "code": "90",
+	},
+	"less_pellets_enemy_12": {
+	  "addr": 0x41051C , 
+      "code": "90",
+	},
+	"less_pellets_enemy_13": {
+	  "addr": 0x41051D , 
+      "code": "90",
+	},
+	"less_pellets_enemy_14": {
+	  "addr": 0x41051E , 
+      "code": "90",
+	},
 	"less_pellets_pellets": {
       "addr": 0x41e2d9 , 
       "code": "83 c1 00",
@@ -309,6 +369,22 @@
 	"Scope_Youmu_Faster": {
       "addr": 0x44326a, 
       "code": "D8 05 30 E8 48 00",
+    },
+	"Boss_Less_Meter": {
+      "addr": 0x41f9b6, 
+      "code": "68 00 00 48 43",
+    },
+	"Bomb_Button_1": {
+      "addr": 0x41CA2F , 
+      "code": "EB C1",
+    },
+	"Bomb_Button_2": {
+      "addr": 0x41C9F2, 
+      "code": "68 00 01 00 00",
+    },
+	"Bomb_Button_3": {
+      "addr": 0x41C9F7, 
+      "code": "EB 38",
     },
   },
 }
