@@ -386,5 +386,21 @@
       "addr": 0x41C9F7, 
       "code": "EB 38",
     },
+	"miss_spell_charge_fix_condition": {
+      "addr": 0x403C1B, 
+      "code": "80 39 04 74 09",
+    },
+    "miss_spell_charge_fix_lvl_2": {
+      "addr": 0x403C64, 
+      "code": "E8 B2FFFFFF",
+    },
+    "miss_spell_charge_fix_lvl_3": {
+      "addr": 0x403CC4, 
+      "code": "E8 52FFFFFF",
+    },
+    "miss_spell_charge_fix_lvl_4": {
+      "addr": 0x403D2A, 
+      "code": "E8 ECFEFFFF",
+    },
   },
 }
