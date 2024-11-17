@@ -414,5 +414,9 @@
       "addr": 0x403D2A, 
       "code": "E8 ECFEFFFF",
     },
+	 "remap_key_Ctrl_to_C": {
+      "addr": 0x42BD38, 
+      "code": "8A 8D 2AFFFFFF",
+    },
   },
 }
