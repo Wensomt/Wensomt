@@ -185,12 +185,15 @@
 	"consistent_life_2": {
       "addr": 0x41E464 , 
       "code": "83 C1 00",
+	}
 	"consistent_life_nop_1": {
       "addr": 0x41E467 , 
       "code": "83 C1 00",
+	}
 	"consistent_life_nop_2": {
       "addr": 0x41E468 , 
       "code": "83 C1 00",
+	}
 	 "consistent_life_nop_3": {
       "addr": 0x41E469 , 
       "code": "83 C1 00",
