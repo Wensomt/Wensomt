@@ -188,15 +188,15 @@
 	},
 	"consistent_life_nop_1": {
       "addr": 0x41E467 , 
-      "code": "83 C1 00",
+      "code": "90",
 	},
 	"consistent_life_nop_2": {
       "addr": 0x41E468 , 
-      "code": "83 C1 00",
+      "code": "90",
 	},
 	 "consistent_life_nop_3": {
       "addr": 0x41E469 , 
-      "code": "83 C1 00",
+      "code": "90",
     },
 	"less_pellets_lily_b": {
       "addr": 0x410313 , 
