@@ -176,14 +176,23 @@
 	*/
 	"consistent_life_1": {
       "addr": 0x41e458, 
-      "code": "B9 02000000",
+      "code": "B9 02 00 00 00",
     },
-	"consistent_life_2": {
+	"consistent_life_nop_0": {
       "addr": 0x41e45D, 
       "code": "90",
     },
-	"consistent_life_3": {
+	"consistent_life_2": {
       "addr": 0x41E464 , 
+      "code": "83 C1 00",
+	"consistent_life_nop_1": {
+      "addr": 0x41E467 , 
+      "code": "83 C1 00",
+	"consistent_life_nop_2": {
+      "addr": 0x41E468 , 
+      "code": "83 C1 00",
+	 "consistent_life_nop_3": {
+      "addr": 0x41E469 , 
       "code": "83 C1 00",
     },
 	"less_pellets_lily_b": {
