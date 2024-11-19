@@ -90,6 +90,7 @@
       "code": "6a 30",
     },
 */
+/*
 	"600000_1": {
       "addr": 0x41d1e4, 
       "code": "3D C0 27 09 00",
@@ -114,7 +115,7 @@
       "addr": 0x41d265, 
       "code": "81 FB 40 0D 03 00",
     },
-
+*/
 	/*
 	"spell_at_500000": {
       "addr": 0x41d234, 
@@ -418,5 +419,49 @@
       "addr": 0x42BD38, 
       "code": "8A 8D 2AFFFFFF",
     },
+	"aya_buff_passive": {
+      "addr": 0x40D84F, 
+      "code": "D8 0D AC E4 48 00",
+    },
+	 "Sakuya_ex_hitbox_smaller_1": {
+      "addr": 0x442D5C, 
+      "code": "68 00008040",
+    },
+    "Sakuya_ex_hitbox_smaller_2": {
+      "addr": 0x442D78, 
+      "code": "68 00008040",
+    },
+    "Sakuya_ex_hitbox_smaller_3": {
+      "addr": 0x442DA0, 
+      "code": "68 00008040",
+    },
+    "Sakuya_ex_hitbox_smaller_4": {
+      "addr": 0x442DC2, 
+      "code": "68 00008040",
+    },
+    "Sakuya_ex_hitbox_smaller_5": {
+      "addr": 0x442DDE, 
+      "code": "68 00008040",
+    },
+	"More_metter_after_hit": {
+      "addr": 0x48efa0, 
+      "code": "5A 00 66",
+    },
+	"Spell_Point_Rework": {
+      "addr": 0x41D1F3, 
+      "code": "8B 0E                8B 51 10             8B 4A 10             6A 03                E8 CE25FFFF          85 C0                75 31                8B 06                8B 90 38030300       8B 40 10             8B 48 14             81 C2 AC000000       52                   6A 00                6A 02                6A 02                E8 2A6CFEFF          EB 65                3D E0930400          7C 2F                81 FB E0930400       7D 27                8B 06                8B 90 38030300       8B 40 10             8B 48 14             81 C2 AC000000       52                   6A 00                6A 01                6A 01                E8 F96BFEFF          EB 34                90                   90                   90                   90                   90                   ",
+    },
+	"Spell_Point_Rework_2":{
+	"addr": 0x41d1e9, 
+      "code": "7C 3D",
+	},
+	"Spell_Point_Rework_3":{
+	"addr": 0x41d1f1, 
+      "code": "7D 35",
+	},
+	"Spell_Point_Rework_100":{
+	"addr": 0x41D284 , 
+      "code": "6A 00 6A 00",
+	},
   },
 }
