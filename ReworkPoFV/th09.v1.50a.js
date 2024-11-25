@@ -463,5 +463,13 @@
 	"addr": 0x41D284 , 
       "code": "6A 00 6A 00",
 	},
+	"Sakuya_timestop_bullet_clear_circle_fix_1": {
+      "addr": 0x41E9A5, 
+      "code": "E8 A6220500",
+    },
+    "Sakuya_timestop_bullet_clear_circle_fix_2": {
+      "addr": 0x470C50, 
+      "code": "8B 46 0C  8B 48 34  81 E1 01000000  0F84 7EBCFAFF  C3",
+    },
   },
 }
