@@ -216,11 +216,10 @@
       "addr": 0x41051B , 
       "code": "90",
     },
-
 */
 	"less_pellets_enemy_main": {
 	  "addr": 0x41050A , 
-      "code": "C7 45 F4 05 00 00 00",
+      "code": "C7 45 F4 1e 00 00 00",
 	},
 	"less_pellets_enemy_1": {
 	  "addr": 0x410511 , 
@@ -471,5 +470,27 @@
       "addr": 0x470C50, 
       "code": "8B 46 0C  8B 48 34  81 E1 01000000  0F84 7EBCFAFF  C3",
     },
+	"No_Free_Pellet_form_Pellet": {
+      "addr": 0x41E1A9, 
+      "code": "E9 E6 00 00 00",
+    },
+	"Reset_Spell_Points": {
+      "addr": 0x41D1D1, 
+      "code": "C7 46 0C 00 00 00 00 90 90 90 90 90 90 90 90 90",
+    },
+	"Reset_Spell_Points_2": {
+      "addr": 0x41D1C6, 
+      "code": "BF 70 64 08 00",
+    },
+	"Slower_Pellets_Hard_1": {
+      "addr": 0x41D666, 
+      "code": "D8 0D 8C EF 48 00",
+    },
+	"Slower_Pellets_Hard_2": {
+      "addr": 0x41D66C, 
+      "code": "D8 05 AC E4 48 00",
+    },
   },
 }
+
+
