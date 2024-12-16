@@ -16,54 +16,7 @@
       "addr": 0x403f99, 
       "code": "83FB0190",
     },
-	"Charge_On_X": {
-      "addr": 0x41f9f6, 
-      "code": "6A02",
-    },
-	"Check_X_1": {
-      "addr": 0x41f848, 
-      "code": "6A02",
-    },
-	"Check_X_2": {
-      "addr": 0x41f846, 
-      "code": "740E",
-    },
-	"Do_Charge_Z": {
-      "addr": 0x41f925, 
-      "code": "7504",
-    },
-	"Repair_Bot_1": {
-      "addr": 0x41f838, 
-      "code": "6A 01",
-    },
-	"Repair_Bot_2": {
-      "addr": 0x41f83A, 
-      "code": "8B CB",
-    },
-	"Repair_Bot_3": {
-      "addr": 0x41f83C, 
-      "code": "E8 6F64FFFF",
-    },
-	"Repair_Bot_4": {
-      "addr": 0x41f841, 
-      "code": "66 85 C0",
-    },
-	"Repair_Bot_5": {
-      "addr": 0x41f844, 
-      "code": "90",
-    },
-	"Repair_Bot_6": {
-      "addr": 0x41f845, 
-      "code": "90",
-    },
-	"Repair_Bot_7": {
-      "addr": 0x41f845, 
-      "code": "90",
-    },
-	"Repair_Bot_21": {
-      "addr": 0x41f836, 
-      "code": "75 10",
-    },
+
 	"Charge_lvl_2_1": {
       "addr": 0x403c34, 
       "code": "6a 1E",
@@ -386,24 +339,15 @@
       "addr": 0x41f9b6, 
       "code": "68 00 00 48 43",
     },
-	"Bomb_Button_1": {
-      "addr": 0x41CA2F , 
-      "code": "EB C1",
 
     "miss_spell_charge_fix_lvl_2": {
       "addr": 0x403C64,
       "code": "E8 ADFFFFFF",
     },
-	"Bomb_Button_2": {
-      "addr": 0x41C9F2, 
-      "code": "68 00 01 00 00",
     "miss_spell_charge_fix_lvl_3": {
       "addr": 0x403CC4,
       "code": "E8 4DFFFFFF",
     },
-	"Bomb_Button_3": {
-      "addr": 0x41C9F7, 
-      "code": "EB 38",
     "miss_spell_charge_fix_lvl_4": {
       "addr": 0x403D2A,
       "code": "E8 E7FEFFFF",
@@ -428,9 +372,6 @@
       "addr": 0x41E863,
       "code": "6A 3C  8B CF  E8 8F2CFEFF  6A 03  8B CE  E8 AB53FEFF",
     },
-	 "remap_key_Ctrl_to_C": {
-      "addr": 0x42BD38, 
-      "code": "8A 8D 2AFFFFFF",
     "miss_spell_charge_fix_set_timer_check": {
       "addr": 0x4014FB,
       "code": "80 3E 06  74 E6",
@@ -508,7 +449,19 @@
       "addr": 0x41D66C, 
       "code": "D8 05 AC E4 48 00",
     },
+
+    "TH19_controls": {
+      "addr": 0x42BC2E,
+      "code": "E9 [codecave:TH19_controls] 90",
+    },
   },
+
+  "codecaves": {
+    "TH19_controls": {
+      "access": "re",
+      "code": "50                   51                   B8 C8CF4A00          85 C0                74 6B                81 78 04 5FAA4100    75 5D                8B 48 1C             80 B9 3C010000 01    74 56                80 B9 3C010000 02    74 5A                80 B9 3D010000 00    75 44                80 B9 3E010000 00    75 3B                8B 0D 387E4A00       83 F9 00             74 30                50                   E8 [0x404980]          85 C0                58                   75 25                59                   58                   8A 17                F6 D2                C0 E2 07             22 95 28FFFFFF       0A 95 29FFFFFF       8A 85 2AFFFFFF       E9 [0x42BC3A]          8B 40 14             EB 91                59                   58                   8A 85 29FFFFFF       E9 [0x42BC34]          59                   58                   8A 95 28FFFFFF       0A 95 29FFFFFF       8A 85 2AFFFFFF       E9 [0x42BC3A]",
+    },
+  }
 }
 
 
