@@ -389,35 +389,53 @@
 	"Bomb_Button_1": {
       "addr": 0x41CA2F , 
       "code": "EB C1",
+
+    "miss_spell_charge_fix_lvl_2": {
+      "addr": 0x403C64,
+      "code": "E8 ADFFFFFF",
     },
 	"Bomb_Button_2": {
       "addr": 0x41C9F2, 
       "code": "68 00 01 00 00",
+    "miss_spell_charge_fix_lvl_3": {
+      "addr": 0x403CC4,
+      "code": "E8 4DFFFFFF",
     },
 	"Bomb_Button_3": {
       "addr": 0x41C9F7, 
       "code": "EB 38",
-    },
-	"miss_spell_charge_fix_condition": {
-      "addr": 0x403C1B, 
-      "code": "80 39 04 74 09",
-    },
-    "miss_spell_charge_fix_lvl_2": {
-      "addr": 0x403C64, 
-      "code": "E8 B2FFFFFF",
-    },
-    "miss_spell_charge_fix_lvl_3": {
-      "addr": 0x403CC4, 
-      "code": "E8 52FFFFFF",
-    },
     "miss_spell_charge_fix_lvl_4": {
-      "addr": 0x403D2A, 
-      "code": "E8 ECFEFFFF",
+      "addr": 0x403D2A,
+      "code": "E8 E7FEFFFF",
+    },
+    "miss_spell_charge_fix_change_state": {
+      "addr": 0x403C16,
+      "code": "80 39 04  75 05  C6 44 24 04 06",
+    },
+    "miss_spell_charge_fix_check_state": {
+      "addr": 0x41E959,
+      "code": "72 0B",
+    },
+    "miss_spell_charge_fix_bypass_timer_jmp": {
+      "addr": 0x41E73A,
+      "code": "EB D8",
+    },
+    "miss_spell_charge_fix_bypass_timer_check": {
+      "addr": 0x41E714,
+      "code": "3C 06  0F84 13010000  DFE0  EB 1C",
+    },
+    "miss_spell_charge_fix_set_timer_call": {
+      "addr": 0x41E863,
+      "code": "6A 3C  8B CF  E8 8F2CFEFF  6A 03  8B CE  E8 AB53FEFF",
     },
 	 "remap_key_Ctrl_to_C": {
       "addr": 0x42BD38, 
       "code": "8A 8D 2AFFFFFF",
+    "miss_spell_charge_fix_set_timer_check": {
+      "addr": 0x4014FB,
+      "code": "80 3E 06  74 E6",
     },
+
 	"aya_buff_passive": {
       "addr": 0x40D84F, 
       "code": "D8 0D AC E4 48 00",
