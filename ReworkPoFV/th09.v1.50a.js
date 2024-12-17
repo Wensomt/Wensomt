@@ -439,7 +439,7 @@
     },
 	"Reset_Spell_Points_2": {
       "addr": 0x41D1C6, 
-      "code": "BF 70 64 08 00",
+      "code": "BF B0 71 0B 00",
     },
 	"Slower_Pellets_Hard_1": {
       "addr": 0x41D666, 
