@@ -339,6 +339,10 @@
       "addr": 0x41f9b6, 
       "code": "68 00 00 48 43",
     },
+	"Lyrica_Ex_Nerf": {
+      "addr": 0x4456d1, 
+      "code": "68 00 00 C8 42",
+    },
 
     "miss_spell_charge_fix_lvl_2": {
       "addr": 0x403C64,
@@ -437,10 +441,10 @@
       "addr": 0x41D1D1, 
       "code": "C7 46 0C 00 00 00 00 90 90 90 90 90 90 90 90 90",
     },
-	"Reset_Spell_Points_2": {
+	/*"Reset_Spell_Points_2": {
       "addr": 0x41D1C6, 
       "code": "BF B0 71 0B 00",
-    },
+    },*/
 	"Slower_Pellets_Hard_1": {
       "addr": 0x41D666, 
       "code": "D8 0D 8C EF 48 00",
@@ -449,7 +453,38 @@
       "addr": 0x41D66C, 
       "code": "D8 05 AC E4 48 00",
     },
-
+	"800000_1": {
+      "addr": 0x41d1e4, 
+      "code": "3D 00 35 0C 00",
+    },
+	"800000_2": {
+      "addr": 0x41d1eb, 
+      "code": "81 FB 00 35 0C 00",
+    },
+	"500000_1": {
+      "addr": 0x41d228, 
+      "code": "3D 20 A1 07 00",
+    },
+	"500000_2": {
+      "addr": 0x41d22f, 
+      "code": "81 FB 20 A1 07 00",
+    },
+	"300000_1": {
+      "addr": 0x41d25e, 
+      "code": "3D E0 93 04 00",
+    },
+	"300000_2": {
+      "addr": 0x41d265, 
+      "code": "81 FB E0 93 04 00",
+    },
+	"Slow_Red_Spirit_No_Scale": {
+      "addr": 0x4109CE , 
+      "code": "D8 0D 14 E3 48 00",
+    },
+	"Slow_Red_Spirit_Faster_Base": {
+      "addr": 0x4109DD  , 
+      "code": "D8 05 94 EF 48 00",
+    },
     "TH19_controls": {
       "addr": 0x42BC2E,
       "code": "E9 [codecave:TH19_controls] 90",
