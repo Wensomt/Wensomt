@@ -16,7 +16,6 @@
       "addr": 0x403f99, 
       "code": "83FB0190",
     },
-
 	"Charge_lvl_2_1": {
       "addr": 0x403c34, 
       "code": "6a 1E",
@@ -29,105 +28,6 @@
       "addr": 0x403c69, 
       "code": "6a 1E",
     },
-/*
-	"Charge_lvl_3_1": {
-      "addr": 0x403c94, 
-      "code": "6a 30",
-    },
-	"Charge_lvl_3_2": {
-      "addr": 0x403cad, 
-      "code": "6a 30",
-    },
-	"Charge_lvl_3_3": {
-      "addr": 0x403cc9, 
-      "code": "6a 30",
-    },
-*/
-/*
-	"600000_1": {
-      "addr": 0x41d1e4, 
-      "code": "3D C0 27 09 00",
-    },
-	"600000_2": {
-      "addr": 0x41d1eb, 
-      "code": "81 FB C0 27 09 00",
-    },
-	"400000_1": {
-      "addr": 0x41d225, 
-      "code": "3D 80 1A 06 00",
-    },
-	"400000_2": {
-      "addr": 0x41d22c, 
-      "code": "81 FB 80 1A 06 00",
-    },
-	"200000_1": {
-      "addr": 0x41d25e, 
-      "code": "3D 40 0D 03 00",
-    },
-	"200000_2": {
-      "addr": 0x41d265, 
-      "code": "81 FB 40 0D 03 00",
-    },
-*/
-	/*
-	"spell_at_500000": {
-      "addr": 0x41d234, 
-      "code": "EB BD",
-    },
-	
-	"BIG_JUMP": {
-      "addr": 0x41d26D, 
-      "code": "EB 84",
-    },
-	"BIG_JUMP_2": {
-      "addr": 0x41d223, 
-      "code": "EB 11",
-    },
-	"replace_1": {
-      "addr": 0x41d236, 
-      "code": "8B 06",
-    },
-	"replace_2": {
-      "addr": 0x41d238, 
-      "code": "8B 88 38030300",
-    },
-	"replace_3": {
-      "addr": 0x41d23E, 
-      "code": "8B 50 10",
-    },
-	"replace_4": {
-      "addr": 0x41d241, 
-      "code": "81 C1 AC 00 00 00",
-    },
-	"replace_5": {
-      "addr": 0x41d247, 
-      "code": "51",
-    },
-	"replace_6": {
-      "addr": 0x41d248, 
-      "code": "8B 4A 14",
-    },
-	"replace_7": {
-      "addr": 0x41d24B, 
-      "code": "6A 00",
-    },
-	"replace_8": {
-      "addr": 0x41d24D, 
-      "code": "6A 02",
-    },
-	"replace_9": {
-      "addr": 0x41d24F, 
-      "code": "6A 02",
-    },
-	"replace_10": {
-      "addr": 0x41d251, 
-      "code": "E8 FA 6B FE FF",
-    },
-	"replace_11": {
-      "addr": 0x41d251, 
-      "code": "EB 35",
-    },
-	*/
 	"consistent_life_1": {
       "addr": 0x41e458, 
       "code": "B9 02 00 00 00",
@@ -156,20 +56,6 @@
       "addr": 0x410313 , 
       "code": "68 32 00 00 00",
     },
-/*
-	"less_pellets_enemy_max": {
-      "addr": 0x41050f , 
-      "code": "C7 45 F4 0A 00 00 00",
-    },
-	"less_pellets_enemy": {
-      "addr": 0x410518 , 
-      "code": "8D 50 05",
-    },
-	"less_pellets_enemy_2": {
-      "addr": 0x41051B , 
-      "code": "90",
-    },
-*/
 	"less_pellets_enemy_main": {
 	  "addr": 0x41050A , 
       "code": "C7 45 F4 1e 00 00 00",
@@ -257,27 +143,6 @@
 	"yuuka_scope_bug_fix_nop4": {
       "addr": 0x44802A, 
       "code": "90",
-    },
-	/*
-	"more_spell_points": {
-      "addr": 0x40F870, 
-      "code": "D1 FA",
-    },
-	"more_spell_points_2": {
-      "addr": 0x40F872, 
-      "code": "90",
-    },*/
-	"mystia_EX_Buff_1": {
-      "addr": 0x445d8b, 
-      "code": "b9 AF 00 00 00",
-    },
-	"mystia_EX_Buff_2": {
-      "addr": 0x445dbe, 
-      "code": "8D 8C 40 51 FF FF FF",
-    },
-	"mystia_EX_Buff_3": {
-      "addr": 0x445de7, 
-      "code": "b8 AF 00 00 00",
     },
 	"komachi_EX_nerf_1": {
       "addr": 0x44af89, 
@@ -441,10 +306,6 @@
       "addr": 0x41D1D1, 
       "code": "C7 46 0C 00 00 00 00 90 90 90 90 90 90 90 90 90",
     },
-	/*"Reset_Spell_Points_2": {
-      "addr": 0x41D1C6, 
-      "code": "BF B0 71 0B 00",
-    },*/
 	"Slower_Pellets_Hard_1": {
       "addr": 0x41D666, 
       "code": "D8 0D 8C EF 48 00",
@@ -485,7 +346,32 @@
       "addr": 0x4109DD  , 
       "code": "D8 05 94 EF 48 00",
     },
-    "TH19_controls": {
+	"Mystia_EX_Immune": {
+      "addr": 0x4461e2,
+      "code": "83 f8 01",
+    },
+	"Mystia_Spell_2_Immune": {
+      "addr": 0x44669a,
+      "code": "83 f8 01",
+    },
+	"Mystia_Spell_3_Immune": {
+      "addr": 0x446ae7,
+      "code": "83 f8 01",
+    },
+	"Mystia_Boss_1_Immune": {
+      "addr": 0x447084,
+      "code": "83 f8 01",
+    },
+	"Mystia_Boss_2_Immune": {
+      "addr": 0x447351,
+      "code": "83 f8 01",
+    },
+	
+	"Medicine_EX_Limit_Slow": {
+     "addr": 0x44a58a,
+     "code": "E9 [codecave:Medicine_EX_Limit_Slow]",
+    },
+	"TH19_controls": {
       "addr": 0x42BC2E,
       "code": "E9 [codecave:TH19_controls] 90",
     },
@@ -496,7 +382,12 @@
       "access": "re",
       "code": "50                   51                   B8 C8CF4A00          85 C0                74 6B                81 78 04 5FAA4100    75 5D                8B 48 1C             80 B9 3C010000 01    74 56                80 B9 3C010000 02    74 5A                80 B9 3D010000 00    75 44                80 B9 3E010000 00    75 3B                8B 0D 387E4A00       83 F9 00             74 30                50                   E8 [0x404980]          85 C0                58                   75 25                59                   58                   8A 17                F6 D2                C0 E2 07             22 95 28FFFFFF       0A 95 29FFFFFF       8A 85 2AFFFFFF       E9 [0x42BC3A]          8B 40 14             EB 91                59                   58                   8A 85 29FFFFFF       E9 [0x42BC34]          59                   58                   8A 95 28FFFFFF       0A 95 29FFFFFF       8A 85 2AFFFFFF       E9 [0x42BC3A]",
     },
+	"Medicine_EX_Limit_Slow": {
+      "access": "re",
+      "code": "8B 07                D9 80 E41C0000       D8 0D 50164900       D9 05 3C0F4900       DBF1                 77 02                D9C9                 D9 98 E41C0000       DDD8                 8B 4E 04             6B C9 38             8B 81 947D4A00       D9 80 E81C0000       D8 0D 50164900       D9 05 3C0F4900       DBF1                 77 02                D9C9                 D9 98 E81C0000       DDD8                 E9 [0x44a5bc]",
+    },
   }
 }
+
 
 
