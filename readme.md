@@ -25,7 +25,7 @@
 ▼ - Nerf<br/>
 
 ## Reimu Hakurei
-- Charge attack deal and is 2x faster.
+- Charge attack deal and is 2x faster ▲
 
 ### Spells
 - Shoot a lot of less bullets ▼▼▼
