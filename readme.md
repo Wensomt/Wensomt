@@ -33,7 +33,7 @@
 - Spell 2 lvl is slower ▼▼▼
 
 ### Boss
-- One attack of Reimu scale based on difficulty. Now it works like all other boss attack in the game removed. *(Shoots less waves of amullets)* ◆▼
+- One attack of Reimu scaled based on difficulty. Now it works like all other boss attacks in the game. *(Shoots less waves of amullets)* ◆▼
 
 ## Marisa Kirisame
 - Slower charging speed ▼▼
