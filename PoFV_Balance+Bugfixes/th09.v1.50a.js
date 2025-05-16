@@ -88,7 +88,30 @@
       "addr": 0x4014FB,
       "code": "80 3E 06  74 E6",
     },
-
+	"consistent_life_1": {
+      "addr": 0x41e458, 
+      "code": "B9 02 00 00 00",
+    },
+	"consistent_life_nop_0": {
+      "addr": 0x41e45D, 
+      "code": "90",
+    },
+	"consistent_life_2": {
+      "addr": 0x41E464 , 
+      "code": "83 C1 00",
+	},
+	"consistent_life_nop_1": {
+      "addr": 0x41E467 , 
+      "code": "90",
+	},
+	"consistent_life_nop_2": {
+      "addr": 0x41E468 , 
+      "code": "90",
+	},
+	 "consistent_life_nop_3": {
+      "addr": 0x41E469 , 
+      "code": "90",
+    },
 	"aya_buff_passive": {
       "addr": 0x40D84F, 
       "code": "D8 0D AC E4 48 00",
@@ -144,10 +167,6 @@
 	"Medicine_EX_Limit_Slow": {
      "addr": 0x44a58a,
      "code": "E9 [codecave:Medicine_EX_Limit_Slow]",
-    },
-	"TH19_controls": {
-      "addr": 0x42BC2E,
-      "code": "E9 [codecave:TH19_controls] 90",
     },
   },
 
