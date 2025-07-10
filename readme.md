@@ -1,22 +1,9 @@
-**Game is balanced on hard mode and some changes are only on this difficulty so remeber to play on HARD even when you played before one easy/normal !**
-
 # Game Changes:
 - No limit for waves of faries during focus!
-- Faries does not spawn from bottom of the screen!
-- Controls are the same as in Touhou 19, so shoot on 'z', charge on 'x', bomb on 'c'
-- Everything spawn less pellets aside from patterns of bosses and spells.
-- Speed of pellets, red bullets from spirits is decresed.
-- Bosses no longer counter each other. That means there can be bosses on each side of the screen.
-- Summoning boss only incrase your boss lvl.
+- Clearing pellet does not bounce it back to enemy (but still contribute to spawing pellets).
 - Now you always lose exacly 1 life.
-- Gain more spell gauge after losing life.
 - While losing your last life you will always get max spell gauge even during charging attack. *(Bugfix)*
 - Using manually 4 lvl will consume 2 charges of spell bar instead of 3.
-- Clearing area of charge 2 lvl is a lot of smaller.
-- New spells thresholds: <br/>
-100000 -> 300000 - now spawns your 2 lvl spell <br/>
-300000 -> 500000 - now spawns your 3 lvl spell <br/>
-500000 -> 800000 - spawns your 4 lvl spell <br/>
 
 # Characters Changes:
 ▲ - Buff<br/>
@@ -25,7 +12,6 @@
 ▼ - Nerf<br/>
 
 ## Reimu Hakurei
-- Charge attack deal and is 2x faster ▲
 
 ### Spells
 - Shoot a lot of less bullets ▼▼▼
@@ -33,11 +19,11 @@
 - Spell 2 lvl is slower ▼▼▼
 
 ### Boss
-- One attack of Reimu scaled based on difficulty. Now it works like all other boss attacks in the game. *(Shoots less waves of amullets)* ◆▼
+- One attack of Reimu scaled based on difficulty. Now it works like all other boss attacks in the game. *(Shoots less waves of amullets)* ◆
 
 ## Marisa Kirisame
-- Slower charging speed ▼▼
-- Spells shoots a lot of less waves of stars ▼▼▼
+- Spells shoots less waves of stars ▼▼▼
+- Boss attack with green and blue stars angle changed a bit ▲
 
 ## Sakuya Izayoi
 - Extra attacks have smaller hitbox as knifes should have🐛▼▼▼
@@ -52,34 +38,33 @@
 
 ## Youmu Konpaku
 - Slightly bigger scope ◆
-
-### Spells
-- Less bullets per wave, bigger gaps between waves ▼▼▼
-
-### Boss
-- Boss with dark blue swords shoots additional waves on sides ▲
-- New attack simlar to above but only shoot to sides *(not directly into us)* ◆
+- Spells shoot Less bullets per wave, bigger gaps between waves ▼▼▼
 
 ## Reisen Udongein Inaba
-- Boss attacks are faster ▲▲
+- Boss attacks are faster ▲
+- Spell 2 lvl shoot more and faster bullets  ▲▲
+- Spell 3 lvl shoot faster bullets ▲
 
 ## Cirno
+- Freeze only bullets on enemy screen ◆ 
+- Freeze always accelerate bullets ▲▲
+- Bigger range of charge attack
+
 ### Spells
-- all patterns shoot 50% more bullets ▲
-- Spell 2 lvl always accelerate bullets after freeze ◆
-- Spell 2 lvl always slow bullets after freeze ◆
+- Spells shoot more layers after 8 lvl ▲▲
+- Spawn fairy wave from bottom of the screen on X position of enemy player ▲▲▲
 
 ### Boss
-- Number of bullets scale twice as much, except pellets ▲
+- Number of bullets increased ▲
 - Blue Crystals are faster ▲
-- New Attack "Perfect Freeze" ◆
+- New Attack "Perfect Freeze" ◆▲
 
 ## Lyrica Prismriver
 - Extra attacks spawn higher on screen  ▼▼
 
 ## Mystia Lorelei
 - Extra attacks cannot be cleared from screen ▲▲▲
-- Attacks of Boss with green bullets have 2x times more bullets *(Smaller gaps)*, and appear in diffent attack ▲▲▲
+- Attacks of Boss with green bullets have 2x times more bullets *(Smaller gaps)*, and appear in diffent attacks ▲▲▲
 
 ## Tewi Inaba
 - Charge attack have bigger range and bigger hitbox ▲▲▲
@@ -88,11 +73,11 @@
 ### Spells
 - Spells are faster and scale better, also change direction later making sharper angle of bullets to dodge ▲▲▲
 - Spells appear higher on screen and position of spawn is not static ◆▲▲▲
-- Spells spawn 2 waves of its pattern ▲▲▲
+- Spells spawn 3 waves of its pattern ▲▲▲
 
 ### Boss
-- Attack that send extra attacks also send pattern of spell 3 lvl ▲▲▲
-- Attack where tewi shoots bullets on left and right side also send few extra attacks ▲
+- Attack that send extra attacks also send pattern of her old spell 3 lvl ▲▲▲
+- Attack where tewi shoots bullets on left and right side also send few extra attacks and is much more punishing ▲▲▲
 
 ## Aya Shameimaru
 - Charge attack deal more damage ▲▲
@@ -102,20 +87,21 @@
 
 ## Medicine Melancholy
 - Limit of slow from Extra attack ▼▼
+- Boss attack are a little bit faster ▲
 
 ## Yuuka Kazami
 - Scope works as its should be 🐛▲▲▲
-
-## Komachi Onozuka
-- Extra attacks spawn a little bit less often ▼
+- Spells spawn 2 waves of its pattern ▲▲
 
 ## Eiki Shiki, Yamaxanadu
-- The number of pellets is drastically reduced, therefore the number of her Extra Attack projectiles is also drastically reduced, which is why this is a HUGE indirect nerf, she does not require further nerfs ▼▼▼▼▼
+- The number of pellets is reduced, therefore the number of her Extra Attack projectiles is also reduced, which is why this is a indirect nerf ▼▼▼
 
 ## Merlin Prismriver
 - Faster charge speed ▲▲▲
 - A lot of wider Scope ▲▲▲
+- Some boss attacks are faster ▲
 
 ## Lunasa Prismriver
 - Bigger Scope ▲
 - Extra attack appear less often (all sisters now have the same value) ▼
+- Some boss attacks are faster and spawn more bullets ▲
