@@ -180,6 +180,10 @@
       "addr": 0x40C62A,
       "code": "E9 2B 01 00 00",
     },
+	"Lyrica_Ex_Nerf": {
+      "addr": 0x4456d1, 
+      "code": "68 00 00 C8 42",
+    },
 	
 	"Medicine_EX_Limit_Slow": {
      "addr": 0x44a58a,
